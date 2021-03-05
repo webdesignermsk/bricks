@@ -45,6 +45,10 @@ require_once get_template_directory() . '/functions/globals.php';
 
 require_once get_template_directory() . '/functions/meta.php';
 
+// --- WooCommerce --- 
+
+require_once get_template_directory() . '/functions/woocommerce.php';
+
 // --- Custom Post Types & Taxonomies --- 
 
 foreach (glob(get_template_directory() . '/functions/cpt/*.php') as $cpt) { require_once $cpt; };
